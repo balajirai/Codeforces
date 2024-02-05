@@ -7,7 +7,7 @@ int main(){
     char c;
     cin >> h1 >> c >> m1 >> h2 >> c >> m2;
 
-    // minutes
+    // convert into minutes
     int min1 = h1*60 + m1;
     int min2 = h2*60 + m2;
 
