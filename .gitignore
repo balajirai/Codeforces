@@ -2,6 +2,9 @@
 # Prerequisites
 *.d
 
+# Ignore all files and folders that begin with a dot
+.*
+
 # Compiled Object files
 *.slo
 *.lo
@@ -11,7 +14,6 @@
 # Precompiled Headers
 *.gch
 *.pch
-*.cph
 
 # Compiled Dynamic libraries
 *.so
