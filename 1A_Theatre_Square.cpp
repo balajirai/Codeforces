@@ -1,19 +1,14 @@
-//  problem code 1A
-// solution by Balaji
-
-#include <iostream>
+#include <bits/stdc++.h>
+#define ll long long
 using namespace std;
+
 int main(){
-    long long n,m,a,l=0,b=0;
+    ll n, m, a;
     cin>>n>>m>>a;
 
-    if(n%a==0) l=n/a;
-    else l=(n/a)+1;
+    ll res = (ceil(1.0*n/a)*ceil(1.0*m/a));
 
-    if(m%a==0) b=m/a;
-    else b=(m/a)+1;
-
-    cout<<l*b<<endl;
+    cout<< res << endl;
     
-return 0;
+    return 0;
 }
